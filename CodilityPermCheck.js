@@ -9,3 +9,5 @@ function solution(A) {
     }
     return 1;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingS3TAXE-5CF/?showingAll=1
