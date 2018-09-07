@@ -21,4 +21,4 @@ function solution(A) {
     }
 }
 
-solution([9,3,9,3,9,7,9]);
+Test Result: https://app.codility.com/demo/results/training9SP9WK-PKX/?showingAll=1
