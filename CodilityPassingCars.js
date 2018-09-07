@@ -28,4 +28,5 @@ function solution(A) {
     }
 }
 
+//Needs some changes
 //solution([0, 1, 0, 1, 1]);
