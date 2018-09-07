@@ -21,4 +21,4 @@ function solution(A) {
     }
 }
 
-Test Result: https://app.codility.com/demo/results/training9SP9WK-PKX/?showingAll=1
+//Test Result: https://app.codility.com/demo/results/training9SP9WK-PKX/?showingAll=1
