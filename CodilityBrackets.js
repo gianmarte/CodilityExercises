@@ -30,3 +30,5 @@ function solution(S) {
     
     return 1;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingENTKDU-SJF/?showingAll=1
