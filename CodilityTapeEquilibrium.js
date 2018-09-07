@@ -30,3 +30,5 @@ function solution(A) {
     
     return lowVal;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingKENCFA-CN4/?showingAll=1
