@@ -5,3 +5,5 @@ function solution(X, Y, D) {
     // write your code in JavaScript (Node.js 8.9.4)
     return Math.ceil((Y-X)/D);
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingPU38P5-VUY/?showingAll=1
