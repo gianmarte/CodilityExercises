@@ -18,3 +18,5 @@ function solution(A) {
     
     return count;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingS2AGTP-PX3/?showingAll=1
