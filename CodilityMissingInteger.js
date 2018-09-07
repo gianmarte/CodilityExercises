@@ -16,3 +16,5 @@ function solution(A) {
     }
    return count;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingED565T-ZJK/?showingAll=1
