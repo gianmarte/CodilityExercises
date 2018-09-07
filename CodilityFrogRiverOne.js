@@ -16,3 +16,5 @@ function solution(X, A) {
     
     return -1;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingVQZWX4-EFU/?showingAll=1
