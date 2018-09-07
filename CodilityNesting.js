@@ -25,3 +25,5 @@ function solution(S) {
     
     return 1;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingEABV2D-J8N/?showingAll=1
