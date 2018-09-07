@@ -11,3 +11,5 @@ function solution(A) {
     
     return nums.size;
 }
+
+//Test Result: https://app.codility.com/demo/results/training33SSYH-BPH/?showingAll=1
