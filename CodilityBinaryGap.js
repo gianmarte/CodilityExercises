@@ -24,3 +24,5 @@ function solution(N) {
     }
     return curGap;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingZ95Z59-V37/?showingAll=1
