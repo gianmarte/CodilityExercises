@@ -1,2 +1,2 @@
 # CodilityExercises
-Repository for Codility Exercises for javascript
+Repository for Codility Exercises in javascript
