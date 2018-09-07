@@ -13,3 +13,5 @@ function solution(A, K) {
         
     return A;
 }
+
+//Test Result: https://app.codility.com/demo/results/trainingWWRKNU-454/?showingAll=1
