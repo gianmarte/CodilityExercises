@@ -15,9 +15,7 @@ function solution(N) {
             count++;
         }
         else if(binary.charAt(x) == 1 && x > indexOne){
-            if(count > curGap){
-                curGap = count;
-            }
+            curGap = Math.max(curGap, count);
             count = 0;
         }
         
@@ -25,4 +23,4 @@ function solution(N) {
     return curGap;
 }
 
-//Test Result: https://app.codility.com/demo/results/trainingZ95Z59-V37/?showingAll=1
+//Test Result: https://app.codility.com/demo/results/trainingT6WZM4-7UM/?showingAll=1
