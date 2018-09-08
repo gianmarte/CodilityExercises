@@ -8,7 +8,7 @@ function solution(A) {
 	}
 	
 	// Sort array from smallest to largest value
-	A.sort();
+	A.sort((a,b) => a-b);
 
 	//Iterate through the array's element by pair
     for(let x = 0; x < A.length; x+=2){
