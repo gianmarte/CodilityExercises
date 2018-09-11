@@ -10,6 +10,10 @@ function solution(N, A) {
         arrCount.push(0);
     }
     
+    if(A.length == 0){
+        return arrCount;
+    }
+    
     
     for(let x = 0; x < A.length; x++){
         let index = A[x]-1;
@@ -19,7 +23,7 @@ function solution(N, A) {
         }
         else{
             maxCount = Math.max(...arrCount);
-            arrCount = arrCount.map(x => x < 2 ? x=maxCount : x);
+            arrCount = arrCount.map(x => x < maxCount ? x=maxCount : x);
         }
     }
     
@@ -28,4 +32,4 @@ function solution(N, A) {
 }
 
 //Needs improvement
-//Test Result: https://app.codility.com/demo/results/training5WXQCG-R4C/?showingAll=1
+//Test Result: https://app.codility.com/demo/results/trainingAV92GD-7WH/?showingAll=1
