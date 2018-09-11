@@ -14,7 +14,7 @@ function solution(N, A) {
     for(let x = 0; x < A.length; x++){
         let index = A[x]-1;
         
-        if(A[x] < N){
+        if(A[x] <= N){
             arrCount[index]+=1;
         }
         else{
@@ -28,4 +28,4 @@ function solution(N, A) {
 }
 
 //Needs improvement
-//Test Result: https://app.codility.com/demo/results/trainingN6NJVT-7QE/?showingAll=1
+//Test Result: https://app.codility.com/demo/results/training5WXQCG-R4C/?showingAll=1
