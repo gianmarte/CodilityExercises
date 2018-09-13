@@ -3,30 +3,22 @@
 
 function solution(A) {
     // write your code in JavaScript (Node.js 8.9.4)
-    let counter = 0;
+    let eastCars = 0;
+    let passingCars = 0;
     
     for(let x = 0; x < A.length; x++){
         if(A[x] == 0){
-            //console.log("x", x);
-            //console.log("A[x]", A[x]);
-            for(let y = 0; y < A.length; y++){
-                //console.log("y", y);
-                if(A[x] == 0 && A[y] == 1){
-                    if(y >= x){
-                    counter++;
-                    //console.log("counter", counter);
-                    }
-                }
+            eastCars++;
+        }
+        else{
+            passingCars+=eastCars;
+            if(passingCars > 1000000000){
+                return -1;
             }
         }
     }
     
-    return counter;
-    
-    if(A.length >= 1000000000){
-        return -1;
-    }
+    return passingCars;
 }
 
-//Needs some changes
-//solution([0, 1, 0, 1, 1]);
+//Test Result: https://app.codility.com/demo/results/trainingBN3QHC-6MH/?showingAll=1
